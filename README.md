@@ -74,15 +74,17 @@
 - 第二轮新增：P05 开放获取 PDF 全文精读；P06 HTML 摘要/可见正文，PDF 访问受限；P07 仅摘要/题录；P08 正式期刊 HTML 正文含表 1–9 与结论。
 - 第二轮没有发现“黄河流域 + 低碳试点 + AI”直接论文，这仅是本轮公开检索边界，不是文献不存在性证明。
 - 首轮判断已冻结在 `rounds/round1/memo.md`；第二轮在 `rounds/round2/memo.md` 中另存并作出“收窄”决定，不覆盖首轮文件。
-- 本人原文核查和 Obsidian 反向链接面板核查必须按实际完成情况填写，不以链接存在替代人工面板核查，也不由助手代签完成。
+- 本人原文核查已由本人于 2026-11-25 完成，记录了回查页码、原文原句、初读判断、自我修正过程与最终结论，见 `vault/checks/student-source-check.md`；核查中修正了一处表述（式（7）已执行但未报数），并纠正了“交互项系数可从主效应中相减”的错误读法。
+- Obsidian 反向链接的真实面板核查未声称完成；`vault/checks/backlinks-check.md` 记录的是对库内 `[[wikilink]]` 指向的程序化检查结果（0 处断链），不替代人工面板确认。
 
 ## 7. 提交状态与账号本人操作
 
 | 事项 | 状态 |
 |---|---|
 | 创建公开空仓库 `low-carbon-city-literature-system` | 已完成（Public） |
-| 添加教师 `liuxb53@mail.sysu.edu.cn` 为合作者 | 待账号本人在 Settings → Collaborators 中确认 |
+| 添加教师 `liuxb53@mail.sysu.edu.cn` 为合作者 | 邀请已发出（教师账号 Xiaobin Liu / SendSun2024，状态 Pending Invite），待其接受 |
 | 首轮 commit 在第二轮之前形成 | 已完成，见第 5 节 |
-| 推送至远程仓库 | 待账号本人执行 `git push -u origin main` |
-| 按课程总说明打包并发送至 `liuxb53@mail.sysu.edu.cn` | 待推送完成后执行 |
+| 推送至远程仓库 | 已完成，`main` 与 `origin/main` 同步 |
+| 本人原文核查 | 已完成，见 `vault/checks/student-source-check.md` |
+| 按课程总说明打包并发送至 `liuxb53@mail.sysu.edu.cn` | 待本人发送 |
 
