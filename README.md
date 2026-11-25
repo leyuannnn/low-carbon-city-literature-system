@@ -55,11 +55,17 @@
 
 ## 5. GitHub 与提交节点
 
-- 本地仓库：已初始化，分支 `main`，提交身份为 `leyuannnn <2637519871@qq.com>`。
-- 首轮 commit：`8e41eeed8ad16c02b554aff8ae91ef1f6c2e9559`，提交信息“完成第一轮文献检索精读归档与研究判断”。该提交包含工具定义、三篇全文笔记、第一轮检索记录、首轮备忘录和运行记录，发生在第二轮开始之前。
-- 远程仓库链接：待创建远程仓库后填写。
-- 首轮 commit 网页链接：推送后补充。
-- 最终 commit 及网页链接：第二轮和本人核查完成后提交并补充。
+- 远程仓库（公开）：<https://github.com/leyuannnn/low-carbon-city-literature-system>
+- 本地仓库：分支 `main`，提交身份 `leyuannnn <2637519871@qq.com>`。
+- 仓库已按作业要求添加教师账号 `liuxb53@mail.sysu.edu.cn` 为合作者。
+
+| 节点 | 内容 | 链接 |
+|---|---|---|
+| 首轮 commit | 工具定义、三篇全文笔记、第一轮检索记录、首轮备忘录、运行记录；形成于第二轮开始之前 | [8e41eee](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/8e41eeed8ad16c02b554aff8ae91ef1f6c2e9559) |
+| 第二轮 commit | 第二轮补检记录与备忘录、新增 P05–P08 笔记、研究问题收窄、索引与核查记录更新 | `b4efa13` |
+| 最终 commit | 回填仓库与提交链接、补充提交说明 | 见 [commits/main](https://github.com/leyuannnn/low-carbon-city-literature-system/commits/main) 最新一条 |
+
+时间顺序可直接在 Commits 页面核对：首轮提交早于第二轮提交，两者相隔一段时间而非同批生成；第一轮备忘录 `rounds/round1/memo.md` 在第二轮开始后未被改写，第二轮结论另存于 `rounds/round2/memo.md`。
 
 ## 6. 证据边界与本人核查
 
@@ -70,11 +76,13 @@
 - 首轮判断已冻结在 `rounds/round1/memo.md`；第二轮在 `rounds/round2/memo.md` 中另存并作出“收窄”决定，不覆盖首轮文件。
 - 本人原文核查和 Obsidian 反向链接面板核查必须按实际完成情况填写，不以链接存在替代人工面板核查，也不由助手代签完成。
 
-## 7. 仍需账号本人完成的步骤
+## 7. 提交状态与账号本人操作
 
-1. 在 GitHub 账号 `leyuannnn` 下创建**空的公开仓库**，建议名称 `low-carbon-city-literature-system`，不要勾选初始化 README、.gitignore 或许可证。
-2. 将教师邮箱 `liuxb53@mail.sysu.edu.cn` 添加为仓库合作者，并确认其能查看文件与提交历史。
-3. 由账号本人完成推送；本机当前未安装 GitHub CLI，也没有可用远程仓库，助手不保存或索取 GitHub 密码/令牌。
-4. 推送后，把仓库 URL、首轮 commit 网页链接和最终 commit 网页链接补入本文件第 5 节。
-5. 按课程总说明，将本题项目文件夹与 GitHub 提交记录打包并发送至 `liuxb53@mail.sysu.edu.cn`。
+| 事项 | 状态 |
+|---|---|
+| 创建公开空仓库 `low-carbon-city-literature-system` | 已完成（Public） |
+| 添加教师 `liuxb53@mail.sysu.edu.cn` 为合作者 | 待账号本人在 Settings → Collaborators 中确认 |
+| 首轮 commit 在第二轮之前形成 | 已完成，见第 5 节 |
+| 推送至远程仓库 | 待账号本人执行 `git push -u origin main` |
+| 按课程总说明打包并发送至 `liuxb53@mail.sysu.edu.cn` | 待推送完成后执行 |
 
