@@ -40,3 +40,46 @@
 - 来源页面：https://publish.cnki.net/journal/portal/tjyj/client/paperPage_list?issue=08&issueId=b3bbf9ab-53c7-4723-897f-144942fa9911&pageNum=1&year=2025&yearId=f208ec9d-8552-4449-b626-a9e1757dc0ea
 - 全文状态：当前仅核查公开摘要，尚未取得全文；DOI、页码和附录状态未核实。
 - 阅读范围：仅限公开摘要中的样本、方法、结果与调节效应，不作全文级评价。
+
+## P05 Tang, Xie, Xu & Sun（2026）
+
+- 题名：*Do low-carbon cities hinder AI industry growth? Evidence from China*。
+- 版本：*Humanities and Social Sciences Communications*, 2026, 13:1877；2026-07-02 发表。
+- DOI：10.1057/s41599-026-08090-2。
+- 出版商页面：https://link.springer.com/article/10.1057/s41599-026-08090-2
+- 原始 PDF：`sources/originals/Tang-et-al-2026-LCCP-AI.pdf`；由开放获取链接下载，HTTP 200，`application/pdf`。
+- 提取文本：`sources/extracted/Tang/content.md`；`extract.log` 仅提示图片未提取，无文字提取错误。
+- 全文状态：13 个 PDF 页，开放获取，第二轮全文精读。
+- 阅读范围：摘要、研究背景、设计与变量、表 2–10、机制、异质性、Discussion、局限、结论与数据可用性声明。
+- 版本说明：第一轮记录为候选 C01，第二轮取得全文后转为正式 P05，未重复计数。
+
+## P06 宋德勇、华斯琦、王志章（2025）
+
+- 题名：空间视觉下低碳城市试点与绿色创新研究。
+- 版本：《西南大学学报（自然科学版）》2025, 47(3): 97–118。
+- DOI：10.13718/j.cnki.xdzk.2025.03.009。
+- HTML 全文页：https://xbgjxt.swu.edu.cn/article/doi/10.13718/j.cnki.xdzk.2025.03.009?viewType=HTML
+- 全文状态：HTML 题录、摘要、理论分析和网页可见正文可读；在线预览 PDF 直接下载返回 HTTP 412，未保存 PDF。
+- 阅读范围：题录、中英文摘要、理论分析与假说及网页可见正文；表格系数未逐项独立核验。
+- 证据级别：摘要/HTML 正文级，不写成 PDF 逐表精读。
+
+## P07 傅芳宁、李胜兰（2023）
+
+- 题名：是绿色虹吸还是绿色涓滴：低碳试点政策对绿色技术创新的邻里效应研究。
+- 版本：《南方经济》2023 年第 8 期，115–133 页。
+- DOI：10.19592/j.cnki.scje.401494。
+- 期刊目录页：http://www.nanfangjingji.cn/CN/Y2023/V41/I8
+- 文献中心页面：https://www.ncpssd.cn/Literature/articleinfo?id=NFJJ2023008007&type=journalArticle
+- 全文状态：仅公开摘要与题录；文献中心页面显示登录/全文下载入口，本轮未取得全文。
+- 阅读范围：公开摘要中的样本、方法、结果与机制，不作全文级评价。
+
+## P08 李兰冰、吴京洪（2026）
+
+- 题名：数字引领、低碳发展与城市“减排增效”——基于“双试点”政策的准自然实验。
+- 版本：《当代经济科学》2026, 48(2): 116–130。
+- DOI：10.20069/j.cnki.DJKX.2026020。
+- 正式期刊 HTML：https://cjournal.hep.com.cn/1002-2848/CN/1282051084743553656
+- 预印本版本线索：https://zsyyb.cn/abs/202610.03606v1
+- 全文状态：正式期刊 HTML 正文可读，已阅读研究设计、表 1–9、机制、异质性、调节效应、政策协同和结论。
+- 阅读范围：HTML 正式版全文主体；未单独保存或逐页核验 PDF。
+- 版本说明：人大哲社预印本与正式期刊为同一研究，按正式版归档，不重复计数。
