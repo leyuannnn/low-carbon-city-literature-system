@@ -48,6 +48,7 @@
 | Obsidian 文献索引 | `vault/00-文献索引.md` |
 | 逐篇论文笔记 | `vault/papers/` |
 | 主题与方法笔记 | `vault/topics/`、`vault/methods/` |
+| 跨文献对照（P01/P02/P08） | `vault/methods/三篇GTFP研究的可比性对照.md` |
 | 重复归档核查 | `vault/checks/duplicate-check.md` |
 | Obsidian 反向链接核查 | `vault/checks/backlinks-check.md` |
 | 本人原文核查 | `vault/checks/student-source-check.md` |
@@ -73,7 +74,7 @@
 | 评分项 | 本项目对应产物 |
 |---|---|
 | 检索与来源（10） | `rounds/round1/search-log.md`、`rounds/round2/search-log.md`：检索式与入口、渠道与覆盖、日期、筛选理由、版本、全文访问状态、零结果与受限记录 |
-| 精读与跨文献比较（15） | `vault/papers/` 8 篇笔记；`rounds/round1/memo.md` 的 P01↔P02 并排比较；`rounds/round2/memo.md` 的 P05↔P08、P01/P02/P08 对照；均标页码、表号或章节 |
+| 精读与跨文献比较（15） | `vault/papers/` 8 篇笔记；`rounds/round1/memo.md` 的 P01↔P02 并排比较；`rounds/round2/memo.md` 的 P05↔P08、P01/P02/P08 对照；`vault/methods/三篇GTFP研究的可比性对照.md` 把三篇 GTFP 研究的样本、处理变量、GTFP 口径、对照组、估计量与系数逐项对齐，并给出四条可判决检验；均标页码、表号或章节 |
 | 工具复用与归档（10） | 三份 `SKILL.md` 与 `agents/research-margin.md`；`vault/00-文献索引.md`；`vault/checks/duplicate-check.md`、`backlinks-check.md`；`logs/actual-run.md`；上表提交历史 |
 | 两轮判断与本人核查（15） | 首轮备忘录冻结未改；第二轮另存并作出“收窄”决定；`vault/checks/student-source-check.md` 记录本人回查页码、原句、初读判断与自我修正；第二轮备忘录第 6 节的最小可行验证含可证伪结果 |
 
@@ -92,9 +93,9 @@
 | 事项 | 状态 |
 |---|---|
 | 创建公开空仓库 `low-carbon-city-literature-system` | 已完成（Public） |
-| 添加教师 `liuxb53@mail.sysu.edu.cn` 为合作者 | 邀请已发出（教师账号 Xiaobin Liu / SendSun2024，状态 Pending Invite），待其接受 |
+| 添加教师 `liuxb53@mail.sysu.edu.cn` 为合作者 | **已接受**：教师账号 Xiaobin Liu / SendSun2024 现显示为 `Collaborator`，仓库出现“1 collaborator”记录 |
 | 首轮 commit 在第二轮之前形成 | 已完成，见第 5 节 |
-| 推送至远程仓库 | 已完成，`main` 与 `origin/main` 同步 |
+| 推送至远程仓库 | 前 4 个提交已推送并核对落库（`main` 曾与 `origin/main` 同步）；其后两次修订（运行记录补正、跨文献对照表）已提交本地，`push.bat` 待账号本人双击执行 |
 | 本人原文核查 | 已完成，见 `vault/checks/student-source-check.md` |
 | 按课程总说明打包并发送至 `liuxb53@mail.sysu.edu.cn` | 待本人发送 |
 

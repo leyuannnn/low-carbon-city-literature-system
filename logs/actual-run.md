@@ -59,15 +59,26 @@
 |---|---|---|---|
 | G2-01 | 本地 `main`（首轮、第二轮、回填链接三个提交） | 在 `leyuannnn` 下创建公开空仓库，关联 `origin`，由账号本人执行推送 | 远程仓库 <https://github.com/leyuannnn/low-carbon-city-literature-system>，首轮 commit `8e41eee` 与第二轮 commit `b4efa13` 落库 |
 | G2-02 | 本人核查记录与状态更新 | 提交为最终 commit 并推送 | commit `af15917`，`main` 与 `origin/main` 同步 |
-| G2-03 | 教师邮箱 | 在仓库 Settings → Collaborators 发出邀请 | 教师账号 Xiaobin Liu / SendSun2024，状态 Pending Invite |
+| G2-03 | 教师邮箱 | 在仓库 Settings → Collaborators 发出邀请 | 教师账号 Xiaobin Liu / SendSun2024；初始状态 Pending Invite，2026-11-25 15:48 复核页面已显示 `Collaborator`，即已接受 |
 | G2-04 | 项目文件夹与提交信息页 | 打包为 zip，排除 `.git` 与本地脚本 | `低碳城市试点-作业提交-李穫源.zip`（36 个文件） |
+| G2-05 | 运行记录已过期段落、README 状态表 | 删除“仓库尚未创建、核查尚未完成”的过期表述；统一表 4 行名 `m` | 修订 commit `04f5fa9`（已提交本地，尚未推送） |
+
+## 跨文献对照（补充产物）
+
+| 顺序 | 所读定义与输入 | 实际处理 | 产物 |
+|---|---|---|---|
+| R3-01 | `skills/archive/SKILL.md` 第 4 条；P01 笔记及 PDF 第 4–9 页、P02 笔记及 PDF 第 4–8 页、P08 笔记及期刊 HTML 表 1–9 | 按 12 个维度逐项对齐三篇 GTFP 研究：处理变量、样本、观测数、对照组构造、GTFP 测度、非期望产出、估计量、识别检查、主效应、分解结果、分组异质性、作者结论；再按“改动一处即可翻转结论”的强度排出四类差异来源，并写成四条可判决检验 | `vault/methods/三篇GTFP研究的可比性对照.md` |
+| R3-02 | 新增对照笔记 | 在索引、方法笔记、主题笔记与三篇论文笔记中建立 `[[三篇GTFP研究的可比性对照]]` 双向链接，避免孤立笔记 | `vault/00-文献索引.md`、`vault/methods/多期DID与GTFP测度比较.md`、`vault/topics/绿色-数字协同与低碳试点.md`、`vault/papers/2021-王亚飞-低碳试点与GTFP.md`、`vault/papers/2025-包玉香-黄河流域低碳试点与GTFP.md`、`vault/papers/2026-李兰冰-双试点政策与减排增效.md` |
+
+对照中确认而此前未记录的两项事实：P08 的单试点检验观测数降至 3,184（剔除全部大数据试验区城市），故其处理组与 P01、P02 不是同一批城市；P02 的非期望产出含 CO₂，P01 不含，GTFP 口径本身即可影响效应大小。P08 的 GTFP 非期望产出清单本次核读未见逐项列出，表中标为未记录，不作推断。
 
 ## 核查结果汇总
 
 | 核查项 | 结果 |
 |---|---|
 | 重复归档 | 已做一次真实重复输入测试（P02 的 DOI 再次输入被拒绝），见 `vault/checks/duplicate-check.md` |
-| 反向链接 | 库内 `[[wikilink]]` 指向已程序化校验，0 处断链；Obsidian 面板的人工目视确认未声称完成，见 `vault/checks/backlinks-check.md` |
+| 反向链接 | 库内 `[[wikilink]]` 指向已程序化校验：15 个 Markdown 文件、0 处断链，P02 被引用 11 次，新增对照笔记被引用 6 次；Obsidian 面板的人工目视确认未声称完成，见 `vault/checks/backlinks-check.md` |
 | 本人回查原文 | 已完成，回查 P02 第 7 页表 4 列（1）与第 9 页结论③，记录初读判断、自我修正与最终结论，见 `vault/checks/student-source-check.md` |
-| 待办 | 向教师邮箱发送打包材料（本人操作）；教师接受合作者邀请 |
+| 教师合作者 | 已接受，仓库 Settings → Collaborators 显示 1 collaborator（Xiaobin Liu / SendSun2024） |
+| 待办 | 推送对照表所在的新提交（需账号本人执行）；向教师邮箱发送打包材料（本人操作，当前未发） |
 

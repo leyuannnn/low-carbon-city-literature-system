@@ -23,6 +23,7 @@ description: 将论文笔记归档到 Obsidian 文献库，维护索引、主题
 
 - 文献索引：`vault/00-文献索引.md`。
 - 主题与方法笔记：`vault/topics/`、`vault/methods/`。
+- 跨文献对照笔记：当同一问题的多篇研究结论不一致时，在 `vault/methods/` 建立逐项对照表（处理变量、样本、观测数、对照组、指标口径、估计量、系数、结论），并按“改动一处即可翻转结论”的强度排出差异来源和可判决检验；不得只并列系数就断言“谁更有效”。
 - 重复归档记录：`vault/checks/duplicate-check.md`。
 - 反向链接记录：`vault/checks/backlinks-check.md`。
 - 将归档后的论文与关系交给 `agents/research-margin.md`。
