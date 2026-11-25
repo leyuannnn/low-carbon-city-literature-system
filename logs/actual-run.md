@@ -50,11 +50,24 @@
 | R2-06 | “低碳试点 + 黄河流域 + 人工智能”精确检索 | 未发现符合条件学术论文；记录政府新闻、政策文件及方向不符论文的排除理由 | `rounds/round2/search-log.md` 的零结果记录 |
 | R2-07 | `skills/archive/SKILL.md`；P05–P08 题名、DOI、版本与访问状态 | 更新来源清单、索引、主题、方法、重复归档及反向链接预期清单 | `sources/manifest.md`、`vault/00-文献索引.md`、`vault/topics/`、`vault/methods/`、`vault/checks/` |
 | R2-08 | `agents/research-margin.md`；首轮备忘录、第二轮检索与四篇新笔记 | 并排比较 P03/P05、P01/P02/P08，写出原判断→补检→更新判断，决定“收窄”，安排本人回查和最小验证 | `rounds/round2/memo.md` |
-| R2-09 | P02 PDF 第 7 页表 4、第 9 页结论及机制正文 | 核对 `m1=-0.055*`、`x×m1=0.046*` 与作者“抑制绿色技术创新”结论的证据距离，形成本人核查任务 | `rounds/round2/memo.md`、`vault/checks/student-source-check.md` |
+| R2-09 | P02 PDF 第 7 页表 4、第 9 页结论及机制正文 | 核对 `m`（中介变量 m1）`=-0.055*`、`x×m1=0.046*` 与作者“抑制绿色技术创新”结论的证据距离，形成本人核查任务 | `rounds/round2/memo.md`、`vault/checks/student-source-check.md` |
+| R2-10 | 本人回查：P02 第 7 页表 4 裁图、第 9 页结论③裁图、第 6 页式（7）（8）文本 | 本人核对表头、系数与星号；否决不成立的交互项读法；把“抑制绿色技术创新”的依据定位到式（7）；确认式（7）仅报告显著性、未报告系数 | `vault/checks/student-source-check.md`（由待办模板改为实际记录） |
 
-## 待完成的实际核查
+## 推送与提交节点
 
-- GitHub 远程仓库、首轮 commit 网页链接、最终 commit 及网页链接需在远程仓库创建并推送后填写。
-- Obsidian 反向链接面板需本人实际操作，当前任务与预期链接已列在 `vault/checks/backlinks-check.md`。
-- 本人原文核查需按 `rounds/round2/memo.md` 第 5 节指定位置独立回查，并把具体判断写入 `vault/checks/student-source-check.md`；当前未声称完成。
+| 顺序 | 所读/输入 | 实际操作 | 产物 |
+|---|---|---|---|
+| G2-01 | 本地 `main`（首轮、第二轮、回填链接三个提交） | 在 `leyuannnn` 下创建公开空仓库，关联 `origin`，由账号本人执行推送 | 远程仓库 <https://github.com/leyuannnn/low-carbon-city-literature-system>，首轮 commit `8e41eee` 与第二轮 commit `b4efa13` 落库 |
+| G2-02 | 本人核查记录与状态更新 | 提交为最终 commit 并推送 | commit `af15917`，`main` 与 `origin/main` 同步 |
+| G2-03 | 教师邮箱 | 在仓库 Settings → Collaborators 发出邀请 | 教师账号 Xiaobin Liu / SendSun2024，状态 Pending Invite |
+| G2-04 | 项目文件夹与提交信息页 | 打包为 zip，排除 `.git` 与本地脚本 | `低碳城市试点-作业提交-李穫源.zip`（36 个文件） |
+
+## 核查结果汇总
+
+| 核查项 | 结果 |
+|---|---|
+| 重复归档 | 已做一次真实重复输入测试（P02 的 DOI 再次输入被拒绝），见 `vault/checks/duplicate-check.md` |
+| 反向链接 | 库内 `[[wikilink]]` 指向已程序化校验，0 处断链；Obsidian 面板的人工目视确认未声称完成，见 `vault/checks/backlinks-check.md` |
+| 本人回查原文 | 已完成，回查 P02 第 7 页表 4 列（1）与第 9 页结论③，记录初读判断、自我修正与最终结论，见 `vault/checks/student-source-check.md` |
+| 待办 | 向教师邮箱发送打包材料（本人操作）；教师接受合作者邀请 |
 

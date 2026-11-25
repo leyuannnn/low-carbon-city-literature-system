@@ -62,10 +62,20 @@
 | 节点 | 内容 | 链接 |
 |---|---|---|
 | 首轮 commit | 工具定义、三篇全文笔记、第一轮检索记录、首轮备忘录、运行记录；形成于第二轮开始之前 | [8e41eee](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/8e41eeed8ad16c02b554aff8ae91ef1f6c2e9559) |
-| 第二轮 commit | 第二轮补检记录与备忘录、新增 P05–P08 笔记、研究问题收窄、索引与核查记录更新 | `b4efa13` |
-| 最终 commit | 回填仓库与提交链接、补充提交说明 | 见 [commits/main](https://github.com/leyuannnn/low-carbon-city-literature-system/commits/main) 最新一条 |
+| 第二轮 commit | 第二轮补检记录与备忘录、新增 P05–P08 笔记、研究问题收窄、索引与核查记录更新 | [b4efa13](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/b4efa1384d240a9d534bf70d6893b1a2db88f09c) |
+| 链接回填 commit | 回填仓库地址与上列节点链接，标注提交状态 | [2a3921b](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/2a3921b814e42d43ad8d5582fe5486462e755a6e) |
+| 本人核查 commit | 本人原文回查记录、式（7）表述与交互项读法修正 | [af15917](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/af15917876f37f4ef1e5252b25c2de7ad3a236c4) |
 
-时间顺序可直接在 Commits 页面核对：首轮提交早于第二轮提交，两者相隔一段时间而非同批生成；第一轮备忘录 `rounds/round1/memo.md` 在第二轮开始后未被改写，第二轮结论另存于 `rounds/round2/memo.md`。
+时间顺序可直接在 Commits 页面核对：首轮提交早于第二轮提交，两者相隔一段时间而非同批生成；第一轮备忘录 `rounds/round1/memo.md` 在第二轮开始后未被改写，第二轮结论另存于 `rounds/round2/memo.md`。上表之外的后续修订（如运行记录补正、符号统一）按时间排在 [Commits 页面](https://github.com/leyuannnn/low-carbon-city-literature-system/commits/main) 末尾，不影响首轮节点位置。
+
+## 5.1 评分项对应
+
+| 评分项 | 本项目对应产物 |
+|---|---|
+| 检索与来源（10） | `rounds/round1/search-log.md`、`rounds/round2/search-log.md`：检索式与入口、渠道与覆盖、日期、筛选理由、版本、全文访问状态、零结果与受限记录 |
+| 精读与跨文献比较（15） | `vault/papers/` 8 篇笔记；`rounds/round1/memo.md` 的 P01↔P02 并排比较；`rounds/round2/memo.md` 的 P05↔P08、P01/P02/P08 对照；均标页码、表号或章节 |
+| 工具复用与归档（10） | 三份 `SKILL.md` 与 `agents/research-margin.md`；`vault/00-文献索引.md`；`vault/checks/duplicate-check.md`、`backlinks-check.md`；`logs/actual-run.md`；上表提交历史 |
+| 两轮判断与本人核查（15） | 首轮备忘录冻结未改；第二轮另存并作出“收窄”决定；`vault/checks/student-source-check.md` 记录本人回查页码、原句、初读判断与自我修正；第二轮备忘录第 6 节的最小可行验证含可证伪结果 |
 
 ## 6. 证据边界与本人核查
 
