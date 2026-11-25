@@ -66,8 +66,10 @@
 | 第二轮 commit | 第二轮补检记录与备忘录、新增 P05–P08 笔记、研究问题收窄、索引与核查记录更新 | [b4efa13](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/b4efa1384d240a9d534bf70d6893b1a2db88f09c) |
 | 链接回填 commit | 回填仓库地址与上列节点链接，标注提交状态 | [2a3921b](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/2a3921b814e42d43ad8d5582fe5486462e755a6e) |
 | 本人核查 commit | 本人原文回查记录、式（7）表述与交互项读法修正 | [af15917](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/af15917876f37f4ef1e5252b25c2de7ad3a236c4) |
+| 运行记录补正 commit | 删除已过期的“待完成核查”表述、统一表 4 行名 `m`、新增评分项对应表 | [04f5fa9](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/04f5fa9572cba111aa7cbadac53e3e3026d60740) |
+| 跨文献对照 commit | 新增 P01/P02/P08 三篇 GTFP 研究的可比性对照表、四类差异来源与 A–D 四条可判决检验，并建立双向链接 | [8fcd17d](https://github.com/leyuannnn/low-carbon-city-literature-system/commit/8fcd17dd96614e571ece797f40bdf71e8e6eacac) |
 
-时间顺序可直接在 Commits 页面核对：首轮提交早于第二轮提交，两者相隔一段时间而非同批生成；第一轮备忘录 `rounds/round1/memo.md` 在第二轮开始后未被改写，第二轮结论另存于 `rounds/round2/memo.md`。上表之外的后续修订（如运行记录补正、符号统一）按时间排在 [Commits 页面](https://github.com/leyuannnn/low-carbon-city-literature-system/commits/main) 末尾，不影响首轮节点位置。
+时间顺序可直接在 Commits 页面核对：首轮提交早于第二轮提交，两者相隔一段时间而非同批生成；第一轮备忘录 `rounds/round1/memo.md` 在第二轮开始后未被改写，第二轮结论另存于 `rounds/round2/memo.md`。上表按实际提交顺序排列，最后两条属于交付前的补正与加强，不改变首轮与第二轮的先后关系。
 
 ## 5.1 评分项对应
 
